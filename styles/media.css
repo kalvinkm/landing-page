@@ -1,0 +1,50 @@
+@media screen and (max-width: 1136px) {
+    header {
+        flex-direction: column;
+    }
+    main {
+        flex-direction: column;
+    }
+    aside {
+        text-align: center;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    p {
+        margin: 0 auto;
+    }
+    form {
+        margin: 0 auto;
+    }
+    input {
+        align-self: center;
+        width: 100%;
+    }
+    img {
+        display: none;
+    }
+    ul {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    li {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    a {
+        background-color: rgb(34, 34, 34);
+        border: none;
+    }
+    a#sinscreva-se-btn {
+        background-color: rgb(34, 34, 34);
+        border: none;
+    }
+    a#sinscreva-se-btn:hover {
+        background-color: rgb(34, 34, 34);
+        border: none;
+    }
+}
